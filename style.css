@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .main {
@@ -248,10 +249,13 @@ body {
   }
   .left-section{
     width: 80vw;
+    margin-bottom: 5rem;
   }
 
   .author{
-    position: relative;
+    position: absolute;
+    margin-bottom: 2rem;
+    bottom: 0;
     
   }
 
