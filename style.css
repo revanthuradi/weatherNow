@@ -14,7 +14,7 @@ body {
   width: 100vw;
   height: 100vh;
 
-  background-image: url(../images/main.webp);
+  background-image: url(./images/main.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -74,7 +74,7 @@ body {
   justify-content: space-between;
   padding: 10px;
   color: white;
-  background-image: url(../images/left.webp);
+  background-image: url(./images/left.webp);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;

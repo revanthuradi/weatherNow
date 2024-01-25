@@ -42,7 +42,7 @@ async function getLoc(){
           },
           (err)=>{
             locStatus.textContent="Access Denied";
-            locStatusImg.src="../images/access-denied.png";
+            locStatusImg.src="./images/access-denied.png";
           })
     }else{
     }
