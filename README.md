@@ -15,7 +15,7 @@ WeatherNow is a sleek and user-friendly real-time weather application designed t
 
 ## Author
 
-- [@revanthuradi07](https://www.github.com/revanthuradi07)
+- [@revanthuradi](https://www.github.com/revanthuradi)
 
 ##Screenshots
 
