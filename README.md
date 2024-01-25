@@ -26,6 +26,9 @@ WeatherNow is a sleek and user-friendly real-time weather application designed t
 
 ## Demo
 
+https://revanthuradi.github.io/weatherNow/
+
+- [view Demo](https://revanthuradi.github.io/weatherNow/)
 
 
 
