@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/drizzle.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherNow</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container1 card">
+            <div>
+                <img src="../images/weatherIcon.gif" class="location-status-img">
+                <h3 class="location-status">Detecting Your Location</h3>
+                <p>
+                    To enhance your experience and provide accurate and 
+                    personalized weather updates, your your permission is needed to
+                     access your device's location.
+                </p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="temp-info-section">
+                <div class="left-section card">
+                    <div class="country-city">
+                        <h3 class="city-name"></h3>
+                        <h2 class="country-name"></h2>
+                    </div>
+
+                    <div class="dntntemp-info">
+                        <div class="dnt-info">
+                            <p class="time"></p>
+                            <p class="date-day-year"></p>
+                        </div>
+
+                        <div class="temp-info">
+                            <p><span class="temp"></span><i class="ri-celsius-line"></i></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="right-section card">
+
+                    <div class="tem-heading">
+                        <i class="ri-sun-line"></i>
+                        <h2 class="temp-description"></h2>
+                    </div>
+
+                    <div class="search-city-div">
+                        <input type="text" placeholder="Search any city" class="search-city">
+                        <i class="ri-search-line searc-btn"></i>
+                    </div>
+
+                    <div class="temperature-info-content">
+                        <div class="country-info">
+                            <p class="city-info"></p>
+                            <img src="" class="country-flag">
+                        </div>
+                        <div class="temp-details"><span>Temperature</span><span id="temp"></span></div>
+                        <div class="temp-details"><span>Humidity</span><span id="humidity"></span></div>
+                        <div class="temp-details"><span>Visibility</span><span id="Visibility"></span></div>
+                        <div class="temp-details"><span>Wind speed</span><span id="Wind-speed"></span></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <span class="author">Developed by revanth uradi | gitHub <a href="https://github.com/revanthuradi">@revanth uradi</a></span>
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".container1"), {
+            max: 25,
+            speed: 400,
+            glare:true,
+            "max-glare":1
+        });
+        
+        VanillaTilt.init(document.querySelector(".left-section"), {
+            max: 10,
+            speed: 400,
+            glare:true,
+            "max-glare":1
+        });
+
+    </script>
+</body>
+</html>
