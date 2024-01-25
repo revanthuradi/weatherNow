@@ -15,17 +15,17 @@ WeatherNow is a sleek and user-friendly real-time weather application designed t
 
 ## Author
 
-- [@revanthuradi07](https://www.github.com/revanthuradi07)
+- [@revanthuradi](https://www.github.com/revanthuradi)
 
 ##Screenshots
 
-![Screenshot 2024-01-24 223748](https://github.com/revanthuradi07/weatherNow-App/assets/67260123/2e0a6f00-d317-4960-a24f-2f7f1e5c8b16)
 
-![Screenshot 2024-01-25 181210](https://github.com/revanthuradi07/weatherNow-App/assets/67260123/b3d76ae8-cf88-4e3a-95b6-af6d785d349b)
+![Screenshot 2024-01-24 223748](https://github.com/revanthuradi/weatherNow/assets/155978701/f45a19e2-bb13-4ab3-93cc-fea07edecee1)
 
+![Screenshot 2024-01-25 181210](https://github.com/revanthuradi/weatherNow/assets/155978701/a8926627-ad85-4c37-bbd9-85741dfa02ed)
 
 ## Demo
 
 
-https://revanthuradi07.github.io/weatherNow-App/
+
 
